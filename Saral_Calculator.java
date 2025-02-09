@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Saral_Calculator {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("enter your first numebr here ");
+            System.out.print("enter your first number here ");
             double num1 = scanner.nextDouble();
                     
-            System.out.print("enter your sencon numebr here");
+            System.out.print("enter your second number here");
             double num2 = scanner.nextDouble();
                     
             double addition = num1 + num2;
@@ -16,7 +16,7 @@ public class Saral_Calculator {
                     
             System.out.println("addition: " + addition);
             System.out.println("subtraction: " + subtraction);
-            System.out.println("mltiplication: " + multiplication);
+            System.out.println("multiplication: " + multiplication);
             System.out.println("division: " + division);
         }
     }
